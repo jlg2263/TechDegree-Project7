@@ -93,6 +93,41 @@ input {
   width: 100%;
 }
 
+/* Updates for 404 Error*/
+.error-link 
+{
+  display: block;
+  margin: auto;
+  max-width: 300px;
+  border-radius: 3px;
+  padding: 5px;
+  background: #438bbd;
+  color: #fff;
+}
+
+.error-link:hover
+{
+  background-color: #275270;
+}
+
+.error-message
+{
+  text-align: center;
+  margin-top: 50px;
+  color: maroon;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.error-code
+{
+  text-align: center;
+  color: maroon;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
 @media only screen and (max-width: 767px)  {
   body {
     padding-top: 2em;
